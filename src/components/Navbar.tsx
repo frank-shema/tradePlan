@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
@@ -17,8 +17,8 @@ const Navbar = () => {
                                         <Link to={"/donate"}>Donate</Link>
                                 </div>
                                 <div className="flex flex-row gap-5 items-center">
-                                        <Link className='text-[#FF6B00]' to={"/"}>Login</Link>
-                                        <Link to={"/"} className='bg-[#0094FF] py-[1vh] px-[2vw] rounded-full text-white'>Get Started</Link>
+                                        <Link className='text-[#FF6B00]' to={"/login"}>Login</Link>
+                                        <Link to={"/signup"} className='bg-[#0094FF] py-[1vh] px-[2vw] rounded-full text-white'>Get Started</Link>
                                 </div>
                         </div>
                 </div>
